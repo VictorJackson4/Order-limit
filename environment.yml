@@ -1,0 +1,15 @@
+# ============================================================
+# Conda environment file for LOB Prediction Project
+# Usage: conda env create -f environment.yml
+#        conda activate lob
+# ============================================================
+name: lob
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - -r requirements.txt
